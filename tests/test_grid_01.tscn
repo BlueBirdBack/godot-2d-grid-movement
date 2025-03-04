@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp3oaantkiw6t"]
+
+[ext_resource type="Script" uid="uid://dbbo5oayfoenk" path="res://tests/test_grid_01.gd" id="1_uxjma"]
+[ext_resource type="Resource" uid="uid://d4g0k5u5fuqvi" path="res://resources/grid.tres" id="2_bf2xl"]
+
+[node name="TestGrid1" type="Node2D"]
+script = ExtResource("1_uxjma")
+grid = ExtResource("2_bf2xl")
